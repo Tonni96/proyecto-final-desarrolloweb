@@ -1,0 +1,9 @@
+//mixin general cuerpo
+@import "./variables";
+
+@mixin cuerpo{
+    background-color: $color-principal;
+    color: $fuente-principal;
+    text-align: center;
+    padding: 15px;
+}

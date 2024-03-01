@@ -1,0 +1,11 @@
+//importacion variables
+
+@import "../base/variables";
+@import "../base/mixin";
+
+body{
+    .cuerpo-galeria{
+        @include cuerpo;
+        
+    }
+}

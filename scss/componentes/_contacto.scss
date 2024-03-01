@@ -1,0 +1,11 @@
+//importacion variables
+
+@import "../base/variables";
+@import "../base/mixin";
+
+body{
+    .contacto-cuerpo{
+        @include cuerpo; 
+        padding-bottom: 30px;
+    }
+}

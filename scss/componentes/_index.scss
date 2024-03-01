@@ -1,0 +1,12 @@
+//importacion variables
+
+@import "../base/variables";
+@import "../base/mixin";
+
+// estilo index 
+body{
+    .div-contenedorindex{
+        @include cuerpo;
+    }
+        
+}

@@ -1,0 +1,15 @@
+//importacion variables
+
+@import "../base/variables";
+@import "../base/mixin";
+
+body{
+    .cuerpo-producto{
+        background-color: $color-principal;
+        color: $fuente-principal;
+        h2{
+            text-align: center;
+        }
+        
+    }
+}

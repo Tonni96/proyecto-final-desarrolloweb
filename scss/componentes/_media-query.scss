@@ -1,0 +1,123 @@
+//importacion variables
+
+@import "../base/variables";
+@import "../base/mixin";
+
+// pantalla tablet 600px
+
+@media screen and (min-width:600px){
+/*mq index*/
+    body{
+        div{
+            .imagen-video{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+        }
+    }
+/* mq chocolate*/
+    body{
+        div{
+            .corazon{
+                width: 500px;
+                height: auto;
+            }
+        }
+    }
+
+/*mq productos*/
+    body{
+        div{
+            .chocolate-uno{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .div-bombas{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                }
+            .chocolate-tres{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+            }
+        }
+/*mq galeria*/
+    body{
+        div{
+            .contenedor-imagenes{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: repeat(3, 37%);
+                gap: 10px;
+            }
+        }
+    }
+}
+// pantalla desktop 1024px
+@media screen and (min-width:1024px){
+/* mq 1024px producto*/
+    body{
+        div{
+            .chocolate-uno{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                text-align: center;
+                align-items: center;
+                section{
+                    ul{
+                        list-style-type: none;
+                    }
+                }
+            }
+            .div-bombas{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                text-align: center;
+                align-items: center;
+                section{
+                    ul{
+                        list-style-type: none;
+                    }
+                }
+                }
+            .chocolate-tres{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                text-align: center;
+                align-items: center;
+                section{
+                    ul{
+                        list-style-type: none;
+                    }
+                }
+            }
+            }
+        }
+/*mq 1024 galeria*/
+    body{
+        div{
+            .contenedor-imagenes{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: repeat(2, 60%);
+                gap: 10px;
+        }
+    }
+}
+    body{
+        .contacto-cuerpo{
+            .contenedor-contacto{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                .mapa-sucursal{
+                    width: 1150px;
+                }
+            }
+            
+        }
+    }
+}
